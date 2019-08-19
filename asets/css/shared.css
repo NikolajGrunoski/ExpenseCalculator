@@ -1,0 +1,15 @@
+.primary-button{
+    font-size: 15px;
+    color: #fff;
+    background: #1DD1A1;
+    height: 50px;
+    box-shadow: 0px 0px 16px
+    rgba(0, 0, 0, 0.17);
+}
+
+
+
+.primary-button.long{
+    height: 60px;
+    width: 200px;
+}
