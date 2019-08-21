@@ -10,6 +10,19 @@
 
 
 .primary-button.long{
-    height: 60px;
-    width: 200px;
+    height: 35px;
+    width: 175px;
+    border-radius: 5px;
+}
+
+input{
+    background: #fff;
+    border: 2px solid;
+    border-color: #C6C6C6;
+}
+
+label{
+    font-size: 18px;
+    Color: #8D8D8D;
+    offset-distance: 15px;
 }
