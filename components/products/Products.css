@@ -1,0 +1,71 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5EDF5;
+}
+
+#products{
+    width: 100%;
+    height: 100%;
+   
+   
+    
+}
+
+.hader-line{
+    Font-size: 16px;
+    Color: #404040;
+    Padding-bottom: 15px;
+    Border-bottom: 1px solid;
+    Border-color: #707070;
+
+}
+
+.row-lines{
+    Font-size: 16px;
+    Color: #575757;
+    Background: #fff;
+    Padding: 20px;
+
+}
+
+table{
+    /* table-colappse:collapse;    ne raboti da se poprai     */
+}
+
+.picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.username{
+    Font-size: 18px;
+    Color:#4D4D4D;
+    margin: 15px;
+
+}
+
+.profile-picture{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+header{
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.buttons{
+    justify-content: space-between;
+    padding: 10px;
+}
