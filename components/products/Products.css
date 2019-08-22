@@ -23,11 +23,17 @@ html,body {
     Font-size: 16px;
     Color: #575757;
     Background: #fff;
-    Padding: 20px;
+    text-align: center;
+    border-color: #707070;
+    border-bottom: 1px solid;
+   
+    /* Da se napravi prostor izmegju kolonite */
+    
 }
 
 table {
     border-collapse: collapse;
+    margin:50px;
 }
 
 .picture {
@@ -61,3 +67,12 @@ header {
     justify-content: space-between;
     padding: 10px;
 }
+
+.title{
+    margin-left: 50px;
+    Font-size: 22px;
+    font-weight: bold;
+    Color: #000000;
+}
+
+
