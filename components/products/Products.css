@@ -61,6 +61,7 @@ header {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    background-color: #fff;
 }
 
 .buttons {
@@ -75,4 +76,17 @@ header {
     Color: #000000;
 }
 
+.checklist-form{
+    margin-right: 100px;
+    text-align: right;
+    height: 35px;
+    background: transparent;
+    border: 2px;
+    border-color: #C6C6C6;
+}
+
+button{
+    margin-left: 30px;
+    background: transparent;
+}
 
