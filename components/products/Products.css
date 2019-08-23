@@ -14,9 +14,9 @@ html,body {
 .hader-line {
     Font-size: 16px;
     Color: #404040;
-    Padding-bottom: 15px;
-    Border-bottom: 1px solid;
+    Border-bottom: 20px solid;
     Border-color: #707070;
+   
 }
 
 .row-lines {
@@ -24,49 +24,17 @@ html,body {
     Color: #575757;
     Background: #fff;
     text-align: center;
-    border-color: #707070;
-    border-bottom: 1px solid;
-   
-    /* Da se napravi prostor izmegju kolonite */
-    
+    border-bottom: 15px solid;
+    border-color: #E5EDF5;
+
 }
 
 table {
     border-collapse: collapse;
-    margin:50px;
-}
-
-.picture {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.username {
-    Font-size: 18px;
-    Color: #4D4D4D;
-    margin: 15px;
-}
-
-.profile-picture {
-    text-align: right;
-    display: flex;
-    align-items: center;
-    margin: 15px;
-}
-
-header {
-    padding: 20px;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-}
-
-.buttons {
-    justify-content: space-between;
-    padding: 10px;
+    margin:40px;
+    margin-left: 60px;
+    margin-top: 0px;
+    font-size: 16px;
 }
 
 .title{
@@ -88,5 +56,33 @@ header {
 button{
     margin-left: 30px;
     background: transparent;
+}
+
+.edit-del-btn{
+    border-color: transparent;
+    margin: 2px;
+    Color: #575757;
+}
+
+.fixed-button{
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 5px;
+    background-color: #596677;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    border-color: transparent;
+    font-style: bolder;
+}
+
+td{
+    padding: 20px;
+}
+
+th{
+    padding: 20px;
+    /* border-bottom: 1px #575757 solid; */
 }
 

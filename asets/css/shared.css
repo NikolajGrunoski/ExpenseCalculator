@@ -33,7 +33,7 @@
     border-color: #576574;
     border-radius: 5px; 
     height: 30px;
-    
+    margin-left: 2px;
 
 }
 
@@ -72,4 +72,37 @@ label{
     width: 100%;
     text-align: center;
     color: #8D8D8D;
+}
+
+.picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    Font-size: 18px;
+    Color: #4D4D4D;
+    margin: 15px;
+}
+
+.profile-picture {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+header {
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.buttons {
+    justify-content: space-between;
+    padding: 10px;
 }
