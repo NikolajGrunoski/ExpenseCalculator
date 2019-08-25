@@ -88,7 +88,8 @@ th{
 
 .title-checkbox{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin:20px 100px 0px 90px;
     
 }
 
