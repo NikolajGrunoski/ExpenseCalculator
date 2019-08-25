@@ -38,7 +38,6 @@ table {
 }
 
 .title{
-    /* margin-left: 50px; */
     Font-size: 22px;
     font-weight: bold;
     Color: #000000;
@@ -46,8 +45,6 @@ table {
 }
 
 .checklist-form{
-    /* margin-right: 100px; */
-    /* text-align: right; */
     height: 35px;
     background: transparent;
     border: 2px;
@@ -91,8 +88,17 @@ th{
 
 .title-checkbox{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 }
+
+#myList{
+    border: 2px solid;
+    border-color: #C6C6C6;
+    height: 25px;
+    border-radius: 5px;
+    width: 150px;
+}
+
 
 
